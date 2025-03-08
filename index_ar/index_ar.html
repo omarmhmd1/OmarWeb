@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar's Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Icon.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body dir="rtl">
+    
+    <!-- Header -->  
+
+    <div class="header" id="header">
+        <a class="logo" href="#">Omar</a>
+        <a class="language" onclick="changeTextDirection()" href="index_en.html">En</a>
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+          
+        <div class="links" id="links">
+            <a href="#aboutme" onclick="toggleMenu()">عنّي</a>
+            <a href="#myprojects" onclick="toggleMenu()">مشاريعي</a>
+            <a href="#blogs" onclick="toggleMenu()">المدونات</a>
+            <a href="#myservices" onclick="toggleMenu()">خدماتي</a>
+            <hr>
+            <a href="https://github.com/omarmhmd1" onclick="toggleMenu()">github</a>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div class="about" id="about">
+        <h3 class="H3">مرحباً!</h3>
+        <h1 class="H1">أنا <b class="c1">عمر محمد</b></h1>
+        <h2 class="H2">أنا <b class="c1">مطور ويب</b></h2>
+    </div>
+
+    <!-- About Me -->
+
+    <div class="non_div" id="aboutme"></div>
+
+    <div class="aboutme">
+        <center><h1 id="aboutme" class="C2" data-tran="About Me">عنّي</h1></center>
+        <center>
+            <div class="Text">
+                <p class="text" id="text">مرحباً بالجميع، اسمي عمر محمد، أحب البرمجة كثيراً، وأنا مهتم بتطوير الويب، وهو مجالي المفضل في البرمجة. لدي العديد من المشاريع، ويمكنك زيارة حسابي على <a class="c2" href="https://gitf.com/omarmhmd1">github</a>، مهاراتي في <b class="c2">HTML</b>، <b class="c2">CSS</b> و <b class="c2">Python و PyQt5</b></p>
+            </div> 
+        </center>
+    </div>
+
+    <!-- My Projects -->
+
+    <div class="non_div" id="myprojects"></div>
+
+    <center>
+        <h1 class="C2">مشاريعي</h1>
+    </center>
+    
+    <center>
+        <span class="card">
+            <div class="image">
+                <img class="image" src="images/article_analyst.avif" alt="صورة تحليل المقالات">
+            </div> 
+            <h2 class="titleofpro">Article Analyst</h2>
+            <p class="text">برنامج لتحليل النصوص <br><br> <b>النوع: </b>ملف بايثون</p>
+            <a class="git" href="https://github.com/omarmhmd1/Article-Analyst" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </span>
+    
+        <span class="card">
+            <div class="image">
+                <img class="image" src="images/timer.jpg" alt="مؤقت">
+            </div>
+            <h2 class="titleofpro">Timer</h2>
+            <p class="text" id="text">برنامج لضبط الوقت <br><br> <b>النوع: </b>ملف بايثون</p>
+            <a class="git" href="https://github.com/omarmhmd1/Timer" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </span>
+    </center>
+            
+    <!-- Blogs -->
+    
+    <div class="non_div" id="blogs"></div>
+
+    <center>
+        <h1 class="C2">المدونات</h1>
+    </center> 
+    
+    <center>
+        <span class="card1">
+            <div class="image">
+                <img class="image" src="images/ai/artificial_intelligence.jpg" alt="صورة للذكاء الاصطناعي">
+            </div> 
+            <h2 class="titleofpro">ما هو الذكاء الاصطناعي؟</h2>
+            <p class="text" id="text">ما هو الذكاء الاصطناعي؟ كيف يعمل؟ .......</p>
+            <a class="text" style="color: #3760e5;" href=""> المزيد </a>
+        </span>
+    </center>
+    
+    <!-- My Services -->
+    
+    <div class="non_div"  id="myservices" ></div>
+
+    <center>
+        <h1 class="C2">خدماتي</h1>
+    </center> 
+
+    <!-- Services -->
+    
+    <span class="serv">
+        <p class="ser" data-tran="I can build and develop">يمكنني بناء وتطوير <b class="c1" data-tran="Portfolio Webs">Portfolio Webs مواقع بورتفوليو</b> لك أو لشركتك</p>
+        <img class="image1" src="images/ser.jpg" alt="بناء مواقع">
+    </span>
+   
+    <!-- Footer Section -->
+
+    <div class="footer">
+        <a class="gitf" href="https://github.com/omarmhmd1">حساب github <i class="fa-brands fa-github"></i></a>
+        <p class="textf">صُنع بواسطة عمر محمد</p>
+    </div>
+    
+    <!-- Script -->
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
